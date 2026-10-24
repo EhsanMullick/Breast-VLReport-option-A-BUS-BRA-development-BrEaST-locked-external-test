@@ -1,0 +1,13 @@
+torch>=2.2
+torchvision
+timm>=1.0
+transformers          # only for --decoder gpt2 / --hf_tok gpt2
+scikit-learn
+scikit-image
+pandas
+openpyxl
+Pillow
+pycocoevalcap         # BLEU / ROUGE-L / CIDEr (pure-python parts only; no Java needed)
+rouge-score
+nltk                  # METEOR: python -c "import nltk; nltk.download('wordnet')"
+bert-score            # optional
